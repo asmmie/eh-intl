@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EH International</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=Bodoni+Moda:opsz,wght@6..96,600;6..96,700;6..96,900&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&family=IBM+Plex+Serif:wght@300;400&family=Playfair+Display:wght@400;800&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css" />
+    <style>
+      #main-bg {
+            background: linear-gradient(rgba(81, 100, 90, 0.6), rgba(81, 100, 90, 0.6)),
+          url("/images/bg.jpeg") center/cover fixed
+            no-repeat;
+        height: 100vh;
+      }
+      #about-icon {
+        font-size: 5rem;
+        color: #717171;
+      }
+      #head-content {
+        /* color: #bcb722; */
+        font-family: 'Bodoni Moda', serif;
+      }
+      #product-icon {
+
+        max-width: 100px;
+        
+      }
+      footer {
+        /* background: linear-gradient(rgba(1, 29, 15, 0.4), rgba(1, 29, 15, 0.9)); */
+        background-color: #607f77;
+      }
+      * {
+        font-family: 'IBM Plex Serif', serif;
+        scroll-behavior: smooth;
+        scroll-margin-top: 100px;
+    
+      }
+      h1, h2, h4 {
+        font-family: 'Bodoni Moda', serif;
+      }
+      .menu-link {
+        font-family: 'Arsenal', sans-serif;
+      }
+      a {
+        text-decoration: none;
+      }
+      .btn {
+        background-color: #c9c65e;
+      }
+      #info {
+        font-size: 0.8rem;
+      }
+      #italic {
+        font-style: italic;
+      }
+      .scroll-effect {
+        opacity: 0;
+        transform: translateY(80px);
+        transition: all 1.5s ease;
+      }
+      
+      .effect-active {
+        opacity: 1;
+        transform: none;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-0"
+      >
+        <div class="container">
+          <a class="navbar-brand h-100 p-0" href="#"
+            ><img class="p-3" style="height: 80px;"src="./images/eh_logo1.png" alt=""></a
+          >
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item active mx-3 p-3" aria-current="page">
+                <a class="nav-link menu-link" href="#top"style="letter-spacing: 3px; font-size: 18px;"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item mx-3 p-3">
+                <a class="nav-link menu-link" href="#about"style="letter-spacing: 3px; font-size: 18px;">ABOUT US</a>
+              </li>
+              <li class="nav-item mx-3 p-3">
+                <a class="nav-link menu-link" href="#contact"style="letter-spacing: 3px; font-size: 18px;">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <a href="" id="top"></a>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col d-flex mb-5" id="main-bg">
+            <div
+              class="text-white text-center align-items-center justify-content-center my-auto"
+            >
+              <h1 class="display-2 my-3" id="head-content">
+                A GLOBAL TRADING BUSINESS SPECIALIZED IN BEAUTY
+              </h1>
+              <p class="my-3">
+                We have over 20 years of business sourcing and supplying <span id="italic">luxury
+                beauty products</span> from all over the world.
+              </p>
+              <button type="button" class="btn btn-lg text-white my-3 px-4"><a href="#about" class="text-white">Learn More</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5">
+        <a href="" id="about"></a>
+        <div class="row">
+          <div class="col text-center">
+            <h2>About Us</h2>
+          </div>
+        </div>
+        <div class="row m-3 justify-content-center my-3 mx-auto scroll-effect">
+          <div class="col-8 col-lg-6 my-3 scroll-effect-img">
+            <img
+              class="img-fluid p-2"
+              src="/images/pexels-thirdman-7651924.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6 my-3 scroll-effect-p">
+            <p class="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              quaerat, totam ipsam temporibus fugiat iure maxime cum nisi amet
+              distinctio reiciendis consequatur eveniet itaque commodi facilis
+              accusantium sequi! Odio ad esse reiciendis vitae praesentium
+              sapiente consequatur assumenda. Culpa possimus ipsa magnam numquam
+              doloremque amet similique nobis obcaecati quod aspernatur.
+              Doloribus?
+            </p>
+          </div>
+        </div>
+        <div class="row my-5">
+        
+          
+          
+        <div
+          class="row text-center align-items-center justify-content-center my-5 mx-auto"
+        >
+          <div class="col-7 col-md-4 my-3">
+            <div class="row my-3">
+              <i class="fa-regular fa-gem" id="about-icon"></i>
+            </div>
+            <div class="row"><h4>Quality</h4></div>
+            <div class="row">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+                accusantium eius sint sit deserunt quos et doloribus molestiae
+                nostrum cupiditate.
+              </p>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 my-3">
+            <div class="row my-3">
+              <i class="fa-solid fa-truck-fast" id="about-icon"></i>
+            </div>
+            <div class="row"><h4>Logistics</h4></div>
+            <div class="row">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+                accusantium eius sint sit deserunt quos et doloribus molestiae
+                nostrum cupiditate.
+              </p>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 my-3">
+            <div class="row my-3">
+              <i class="fa-solid fa-people-group" id="about-icon"></i>
+            </div>
+            <div class="row"><h4>Global Network</h4></div>
+            <div class="row">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+                accusantium eius sint sit deserunt quos et doloribus molestiae
+                nostrum cupiditate.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col text-center my-5">
+            <h2>Products</h2>
+          </div>
+          <div class="row mt-3 mb-5 mx-auto text-center gx-4">
+            <div class="col-sm my-3">
+                <div class="card border-0 align-items-center my-3">
+                    <img class="card-img-top"id="product-icon"src="/images/skincare.png" alt="">
+                </div>
+                <div class="card-body my-3">
+                    <p>Skincare</p>
+                </div>
+            </div>
+            <div class="col-sm my-3">
+                <div class="card border-0 align-items-center my-3">
+                    <img class="card-img-top"id="product-icon"src="/images/haircare.png" alt="">
+                </div>
+                <div class="card-body my-3">
+                    <p>Haircare</p>
+                </div>
+                </div>
+            <div class="col-sm my-3">
+                <div class="card border-0 align-items-center my-3">
+                    <img class="card-img-top" id="product-icon"src="/images/cosmetics.png" alt="">
+                </div>
+                <div class="card-body my-3">
+                    <p>Cosmetics</p>
+                </div>
+                </div>
+            <div class="col-sm my-3">
+                <div class="card border-0 align-items-center my-3">
+                    <img class="card-img-top" id="product-icon"src="/images/fragrance.png" alt="">
+                </div>
+                <div class="card-body my-3">
+                    <p>Fragrance</p>
+                </div>
+            </div>
+            <div class="col-sm my-3">
+                <div class="card border-0 align-items-center my-3">
+                    <img class="card-img-top" id="product-icon"src="/images/personalcare.png" alt="">
+                </div>
+                <div class="card-body my-3">
+                    <p>Health & Personal Care</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-center mx-auto my-5">
+            <a href="" id="contact"></a>
+            <div class="col">
+                <div class="text-center">
+          <h2>Get in touch</h2>
+          <p class="lead">Questions? Do not hesitate to contact us.</p>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-lg-8">
+            <form action="">
+              <div class="form-floating my-5">
+              <input
+                type="email"
+                name=""
+                id="email"
+                placeholder="my@email.com"
+                class="form-control rounded-0"
+              />
+              <label class="form-label" for="email">Email:</label>
+              </div>
+            
+              <div class="form-floating my-5">
+                <input
+                  type="name"
+                  name=""
+                  id="name"
+                  placeholder="e.g. David"
+                  class="form-control rounded-0"
+                />
+                <label class="form-label" for="name">Name:</label>
+              </div>
+              <div class="form-floating my-5">
+              <select name="subject" id="subject" class="form-select rounded-0">
+                <option value="none"selected disabled hidden>Select</option>
+                <option value="business">Business Inquiry</option>
+                <option value="general">General Inquiry</option>
+                <option value="other">Other</option>
+              </select>
+              <label for="subject" class="form-label">Subject</label>
+              </div>
+              <div class="form-floating my-5">
+                <textarea
+                  name="query"
+                  id="query"
+                  cols="30"
+                  rows="7"
+                  class="form-control rounded-0"
+                  placeholder="write something"
+                  style="height: 200px"
+                ></textarea>
+                <label for="query" id="query" class="form-label"
+                  >Write a message
+                </label>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-lg text-white px-5">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <div class="row my-auto justify-content-center align-items-center">
+                <div class="col-md d-inline-flex mx-auto text-center p-3">
+                    <div class="col"><a class="menu-link text-white fw-light"href="#top" style="letter-spacing: 3px; font-size: 18px;">HOME</a></div>
+                    <div class="col"><a class="menu-link text-white fw-light"href="#about" style="letter-spacing: 3px; font-size: 18px;">ABOUT US</a></div>
+                    <div class="col"><a class="menu-link text-white fw-light"href="#contact"style="letter-spacing: 3px; font-size: 18px;">CONTACT</a></div>
+                </div>
+                <div class="col-md-4 text-white w-auto p-3 fw-light">
+                    <p class="lh-lg"id="info">E&H International, Inc.
+                        <br>
+                        New York, NY 10016
+                        <br>
+                        United States
+                        <br>
+                        Tel: (123) 456-7890
+                    </p>
+                </div>
+        </div>
+        <div class="row align-items-center">
+                <div class="col text-white text-center fw-light">
+                <p id="eh-right">&copy;E&H International 2022 All Rights Reserved</p>
+                </div>
+            </div>
+      </div>
+    </footer>
+    <script src="./bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script>
+      window.addEventListener('scroll', () => {
+        let content = document.querySelector('.scroll-effect');
+        let contentPosition = content.getBoundingClientRect().top;
+        let screenPosition = window.innerHeight;
+        if (contentPosition < screenPosition) {
+          content.classList.add('effect-active');
+        } else {
+          content.classList.remove('effect-active');
+        }
+      });
+    </script>
+  </body>
+</html>
