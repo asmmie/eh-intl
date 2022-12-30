@@ -306,6 +306,7 @@
                 id="email"
                 placeholder="my@email.com"
                 class="form-control rounded-0"
+                aria-required="true"
               />
               <label class="form-label" for="email">Email:</label>
               </div>
@@ -317,11 +318,12 @@
                   id="name"
                   placeholder="e.g. David"
                   class="form-control rounded-0"
+                  aria-required="true"
                 />
                 <label class="form-label" for="name">Name:</label>
               </div>
               <div class="form-floating my-5">
-              <select name="subject" id="subject" class="form-select rounded-0">
+              <select name="subject" id="subject" class="form-select rounded-0" aria-required="true">
                 <option value="none"selected disabled hidden>Select</option>
                 <option value="business">Business Inquiry</option>
                 <option value="general">General Inquiry</option>
@@ -338,6 +340,7 @@
                   class="form-control rounded-0"
                   placeholder="write something"
                   style="height: 200px"
+                  aria-required="true"
                 ></textarea>
                 <label for="query" id="query" class="form-label"
                   >Write a message
